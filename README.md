@@ -15,3 +15,20 @@ If you need help, please visit the [our OTLand forum thread](https://otland.net/
 ### Issues
 
 We use the [issue tracker on GitHub](https://github.com/babymannen/theforgottenserver-7.4/issues).
+
+
+# Name of the Project, if there is a space in the name use either an _ or a - in its place
+TFS='TFS'
+# Go to the Home directory and make a Project directory
+cd ~
+mkdir $TFS && cd $TFS
+# TFS - Server
+sudo apt-get install -y git cmake build-essential liblua5.2-dev libgmp3-dev libmysqlclient-dev libboost-system-dev libboost-iostreams-dev libpugixml-dev
+# Go to the Project directory
+cd ~/$TFS
+# Git
+git clone --recursive https://github.com/otland/forgottenserver.git
+# Compile
+cd forgottenserver && mkdir build && cd build && cmake .. && make
+cp tfs ../
+sudo apt-get update
