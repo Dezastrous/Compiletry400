@@ -1,0 +1,76 @@
+﻿  otpch.cpp
+  actions.cpp
+  ban.cpp
+  baseevents.cpp
+  bed.cpp
+  chat.cpp
+  combat.cpp
+  commands.cpp
+  condition.cpp
+  configmanager.cpp
+  connection.cpp
+  container.cpp
+  creature.cpp
+  creatureevent.cpp
+  cylinder.cpp
+  database.cpp
+  databasemanager.cpp
+  databasetasks.cpp
+  depotchest.cpp
+  depotlocker.cpp
+  events.cpp
+  fileloader.cpp
+  game.cpp
+  globalevent.cpp
+  groups.cpp
+  guild.cpp
+  house.cpp
+..\src\game.cpp(3409): warning C4189: 'targetPlayer': local variable is initialized but not referenced
+  housetile.cpp
+  ioguild.cpp
+  iologindata.cpp
+  iomap.cpp
+  iomapserialize.cpp
+  item.cpp
+  items.cpp
+  luascript.cpp
+  mailbox.cpp
+  map.cpp
+  monster.cpp
+  monsters.cpp
+  movement.cpp
+  networkmessage.cpp
+  npc.cpp
+  otserv.cpp
+  outputmessage.cpp
+  party.cpp
+  player.cpp
+  position.cpp
+  protocol.cpp
+  protocolgame.cpp
+..\src\player.cpp(680): warning C4100: 'isLogin': unreferenced formal parameter
+  protocollogin.cpp
+  protocolstatus.cpp
+  raids.cpp
+  rsa.cpp
+  scheduler.cpp
+  scriptmanager.cpp
+  server.cpp
+  spawn.cpp
+  spells.cpp
+  talkaction.cpp
+  tasks.cpp
+  teleport.cpp
+  thing.cpp
+  tile.cpp
+  tools.cpp
+  trashholder.cpp
+  vocation.cpp
+  waitlist.cpp
+  weapons.cpp
+  wildcardtree.cpp
+..\src\weapons.cpp(143): warning C4100: 'level': unreferenced formal parameter
+..\src\weapons.cpp(148): warning C4100: 'level': unreferenced formal parameter
+connection.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl boost::gregorian::greg_month::greg_month(unsigned short)" (__imp_??0greg_month@gregorian@boost@@QEAA@G@Z)
+connection.obj : error LNK2001: unresolved external symbol "__declspec(dllimport) public: __cdecl boost::gregorian::greg_month::operator unsigned short(void)const " (__imp_??Bgreg_month@gregorian@boost@@QEBAGXZ)
+C:\Users\Dezastrous\Desktop\Compile plx\vc14\x64\Release\theforgottenserver.exe : fatal error LNK1120: 2 unresolved externals
